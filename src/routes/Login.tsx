@@ -12,7 +12,6 @@ import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { login } from "../api";
 import AuthLayout from "../components/Auth/AuthLayout";
-import FaceBookLogin from "../components/FaceBookLogin";
 import { ILoginForm } from "../types";
 
 export default function Login() {
@@ -77,7 +76,6 @@ export default function Login() {
               로그인
             </Button>
           </Box>
-          <FaceBookLogin />
         </Box>
         <HStack
           justifyContent={"center"}

@@ -13,7 +13,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { signUp } from "../api";
 
 import AuthLayout from "../components/Auth/AuthLayout";
-import FaceBookLogin from "../components/FaceBookLogin";
 
 import { ISignUpForm } from "../types";
 
@@ -106,7 +105,6 @@ export default function SignUp() {
               회원가입
             </Button>
           </Box>
-          <FaceBookLogin />
         </Box>
         <HStack
           justifyContent={"center"}
